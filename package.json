@@ -1,0 +1,20 @@
+{
+  "name": "app-npm",
+  "version": "1.0.0",
+  "description": "App to do mathamatical operations",
+  "main": "index.js",
+  "author": "ashok jayaprakash",
+  "keywords": "math, addition, math operation",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/ashokjayaprakash/app-npm"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "mocha": "^3.4.2"
+  },
+  "scripts": {
+    "test": "mocha --reporter spec"
+  }
+}
